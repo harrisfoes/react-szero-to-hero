@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  height:100vh;
 }
 
 .App-logo {
@@ -36,3 +41,45 @@
     transform: rotate(360deg);
   }
 }
+
+/* COMPONENTS */
+
+/*register form*/
+.register-form{
+
+  display:flex;
+  flex-direction:column;
+  width:300px;
+  border:1px solid black;
+  margin-top: 80px;
+  padding:16px;
+  border-radius:16px;
+
+  .reginput {
+    width:240px;
+    height:30px;
+    margin:16px;
+    border:0;
+    border-bottom: solid 1px gray;
+  }
+
+  .reginput:focus {
+    outline: none;
+  }
+
+  .submit {
+    width: 220px;
+    padding:8px;
+    margin: 20px
+  }
+
+  .error-message {
+    font-size:0.7rem;
+    color:red;
+    margin:8px;
+    margin-top:0;
+    padding:0;
+  }
+
+}
+
