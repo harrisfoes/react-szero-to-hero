@@ -1,11 +1,11 @@
 import "./App.css";
-import RegisterForm from "./components/registerForm";
+import QuizApp from "./components/quizApp";
 
 function App() {
   return (
     <div className="App">
-      <h1>React Zero to Hero</h1>
-      <RegisterForm />
+      <h1>Take the Quiz</h1>
+      <QuizApp />
     </div>
   );
 }
